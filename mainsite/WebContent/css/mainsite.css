@@ -1,0 +1,58 @@
+/*对浏览器的再次初始化*/
+body{
+	font-family:"微软雅黑";
+	padding-top:100px;
+}
+
+
+/*一级导航栏样式*/
+.title-bar{
+	top:0;
+	left:0;
+	right:0;
+	position:fixed;
+	height:100px;
+	background:#999;
+}
+
+.title-bar-name{
+	
+	width:200px;
+	height:100px;
+	line-height:100px;
+	text-align:center;
+	background:#fff;
+	margin-left:200px;
+	color:#999;
+}
+
+/*页面主体样式*/
+.main{
+	width:960px;
+	margin:0 auto;
+	border:1px solid black;
+	height:200px;
+	
+}
+.main-left-box{
+	width:260px;
+	border-right:1px solid black;
+	height:200px;
+	
+}
+
+
+.main-right-box{
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
