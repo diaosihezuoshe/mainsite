@@ -13,6 +13,7 @@ body{
 	position:fixed;
 	height:100px;
 	background:#999;
+	z-index:1000;
 }
 
 .title-bar-name{
@@ -31,26 +32,91 @@ body{
 	width:960px;
 	margin:0 auto;
 	border:1px solid black;
-	height:200px;
-	
+
 }
+
 .main-left-box{
-	width:260px;
-	border-right:1px solid black;
-	height:200px;
+	width:280px;
 	
+	float:left;	
 }
 
 
 .main-right-box{
+	border-left:1px solid black;
 	
+	margin-left:280px;
 	
 }
 
+.brief-intro-box{
+	width:260px;
+	margin:10px;
+	text-align:center;
+		
+}
 
+.brief-intro-box .header-img{
+	height:200px;
+	width:200px;
+	border:1px solid black;
+	margin:0 auto;
+	border-radius:4px 4px 4px 4px;
+}
 
+.brief-intro-box ul{
+	margin-top:20px;
+	text-align:left;
+	padding-left:20px;
+	list-style:none;
+}
 
+.org-info-box{
+	margin-top:20px;
+	width:200px;
+	height:120px;
+	margin:20px auto;
+	border:1px solid black;
+	border-radius:4px 4px 4px 4px;
+}
 
+.org-nav-box{
+	
+	width:680px;
+	height:100px;
+	border-bottom:1px solid black;
+}
+
+.org-nav-box ul{
+	border:1px solid black;
+	height:60px;
+	width:630px;
+	border-radius:5px 5px 5px 5px;
+	margin-top:20px;
+	background:#999;
+	opacity:0.5;
+}
+
+.org-nav-box ul li{
+	text-align:center;
+	margin-top:20px;
+	width:150px;
+	height:50px;
+	float:left;
+	list-style:none;
+	font-size:22px;
+}
+.org-show-box{
+	width:680px;
+	height:330px;
+	border-bottom:1px solid black;
+}
+
+.org-infoflow-box{
+	width:680px;
+	height:500px;
+	
+}
 
 
 
